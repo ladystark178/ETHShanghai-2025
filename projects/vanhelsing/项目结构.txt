@@ -1,0 +1,14 @@
+CryptoGuard-AI/
+├── model_serving/
+│   ├── models/
+│   │   ├── lgb_v2025.pkl
+│   │   ├── feature_names.pkl
+│   │   ├── model_version.txt
+│   │   └── metadata_model_v2025.json
+│   ├── model_manager.py
+│   ├── feature_server.py
+│   └── prediction_api.py
+├── app.py
+├── FraudDetectionML.ipynb
+├── requirements.txt
+└── README.md

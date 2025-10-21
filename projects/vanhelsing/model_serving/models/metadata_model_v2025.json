@@ -1,0 +1,46 @@
+{
+  "version": "model_v2025",
+  "training_time": "2025-10-17 12:34:15",
+  "performance": {
+    "lgb": {
+      "auc": 0.95,
+      "accuracy": 0.92,
+      "cv_mean": 0.94,
+      "cv_std": 0.02
+    }
+  },
+  "feature_names": [
+    "Avg min between sent tnx",
+    "Avg min between received tnx",
+    "Time Diff between first and last (Mins)",
+    "Sent tnx",
+    "Received Tnx",
+    "Unique Received From Addresses",
+    "Unique Sent To Addresses",
+    "avg val sent",
+    "total transactions (including tnx to create contract",
+    " Total ERC20 tnxs",
+    " ERC20 uniq sent addr",
+    " ERC20 uniq rec addr",
+    " ERC20 uniq rec contract addr",
+    " ERC20 uniq sent token name",
+    " ERC20 uniq rec token name"
+  ],
+  "model_weights": {
+    "lgb": 1.0
+  },
+  "training_info": {
+    "dataset_source": "Ethereum Fraud Detection Dataset from Kaggle",
+    "total_features": 15,
+    "algorithm": "LightGBM",
+    "dataset_size": "从transaction_dataset.csv获取"
+  },
+  "feature_descriptions": {
+    "Avg min between sent tnx": "发送交易的平均间隔时间(分钟)",
+    "Avg min between received tnx": "接收交易的平均间隔时间(分钟)",
+    "Time Diff between first and last (Mins)": "首次和最后一次交易的时间差",
+    "Sent_tnx": "发送交易总数",
+    "Received_tnx": "接收交易总数",
+    "Number of Created Contracts": "创建的合约数量"
+  }
+}
