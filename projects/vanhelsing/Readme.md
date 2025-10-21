@@ -7,8 +7,6 @@
 
 A real-time AI-powered risk detection system for Ethereum addresses, built with machine learning and blockchain analytics.
 
-![VanHelsing AI Dashboard]()
-
 ## 🚀 Features
 
 ### 🔍 Intelligent Risk Detection
